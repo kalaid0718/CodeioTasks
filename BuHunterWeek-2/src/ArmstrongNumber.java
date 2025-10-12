@@ -1,7 +1,7 @@
 
 public class ArmstrongNumber {
 	public static void main(String[] args) {
-		int num = 153;
+		int num = 1634;
 		int ognum = num;
 		int result = 0;
 		int n = 0;
@@ -9,6 +9,7 @@ public class ArmstrongNumber {
 		//count digit
 		for(int temp = num ; temp !=0; temp = temp / 10) {
 			n++;
+			
 		}
 		
 		// calculate  sum of digit

@@ -1,7 +1,7 @@
-class Remote{
-	String brand;
+ class Remote{
+	 String brand;
 	int frequency;
-	void turnOn() {
+    void turnOn() {
 		System.out.println("Turning On");
 	}
 	 
